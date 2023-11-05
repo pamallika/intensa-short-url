@@ -37,4 +37,5 @@
 2. Роуты:
     - get '/' - index.html  
     - get '/{shortLink}' - проверка на наличие в базе + редирект  
-    - post '/links' - найти или вернуть короткую ссылку. Payload: uri:string. Return array  
+    - post '/links' - найти или вернуть короткую ссылку. Payload: uri:string. Return array
+3. Параметры подключения к бд в .env  
