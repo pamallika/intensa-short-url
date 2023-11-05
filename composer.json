@@ -1,0 +1,23 @@
+{
+    "name": "projects/intensa",
+    "autoload": {
+        "psr-4": {
+            "Projects\\Intensa\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alexandr Fedorenko",
+            "email": "sasha.fedorenko4736@gmail.com"
+        }
+    ],
+    "require": {
+        "miladrahimi/phprouter": "5.*",
+        "vlucas/phpdotenv": "^5.5",
+        "ext-pdo": "*",
+        "ext-http": "*"
+    }
+}
